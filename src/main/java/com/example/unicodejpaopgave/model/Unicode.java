@@ -11,6 +11,13 @@ public class Unicode {
     private int unicode;
     private char bogstav;
 
+    public Unicode() {
+    }
+
+    public Unicode(int unicode, char bogstav) {
+        this.unicode = unicode;
+        this.bogstav = bogstav;
+    }
 
     public int getUnicode() {
         return unicode;
